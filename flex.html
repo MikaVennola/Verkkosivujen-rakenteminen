@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+    main, footer{
+        display: flex;
+        
+    }
+    article{
+        background-color: beige;
+        margin: 5px; 
+    }
+    .big{
+        flex-grow: 2;
+        background-color: blue;
+    }
+    .small{
+        flex: 1;
+        background-color: blueviolet;
+    }
+  
+
+    
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+    <article class="big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eum molestiae quisquam, voluptatem mollitia aperiam voluptatum. Quam officia asperiores tempore impedit veniam obcaecati quaerat, delectus aperiam, earum soluta et veritatis.</article>
+    
+    <article class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus error animi unde rerum distinctio explicabo, doloribus quaerat praesentium nobis, alias voluptas dolorem ratione. Aliquam, perferendis illo alias nihil ipsa tenetur.</article>
+
+    <article class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore dolor, pariatur facilis eveniet esse. Laudantium, aperiam. Quae quia sed vitae dignissimos, tempora, consequatur esse temporibus vero exercitationem reiciendis perspiciatis!</article>
+    
+
+
+</main>
+<table>
+    <tr>
+    <th>StudentNumber</th>
+    <th>fname</th>
+    <th>lname</th>
+    <th>City</th>
+    </tr>
+
+<tr>
+<td>123</td>
+<td>Pekka</td>
+<td>Laine</td>
+<td>Helsinki</td>
+</tr>
+</table>
+    <h2>Example of form</h2>
+
+    <form method="post" action="process.php">
+        Name: <input type="text" name="fName" required minlength="7" maxlength="13"><br>
+        Email ID: <input type="email" name="email"><br>
+        DOB: <input type="date" name="dob"><br>
+        Message: <input type="text" name="msg"><br>
+        <button type="submit">Submit</button><br>
+        <button type="reset">Reset</button>
+
+    </form>
+
+
+    <footer>
+        <p class="big">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos officiis sint harum. Natus reprehenderit, accusantium, ea necessitatibus vitae laboriosam odio, perspiciatis quam nesciunt quasi quo magni amet magnam perferendis facere</p>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nisi, iure veniam iusto at quo accusamus laboriosam. Adipisci necessitatibus quos, quo sint enim nulla eum voluptatum beatae placeat ab. A!</p>
+    </footer>
+    
+</body>
+</html>
